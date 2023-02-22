@@ -1,6 +1,6 @@
 {% set name = "pyribs-base" %}
 {% set pypi_name = "ribs" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/ribs-{{ version }}.tar.gz
-  sha256: 4796d9eb74b9a367511e6631800ff4e9bbaa57f5416d6a817f80155bbb558d4a
+  sha256: bdb8e7ccc4620f448b72a16fafff96fb0961a41405ec7b2f3ecb83dd291fa156
 
 build:
   number: 0
