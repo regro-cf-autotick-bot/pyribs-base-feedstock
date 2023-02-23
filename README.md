@@ -1,3 +1,7 @@
+**This package is now deprecated. Please `conda install pyribs` instead.**
+
+---
+
 About pyribs-base
 =================
 
