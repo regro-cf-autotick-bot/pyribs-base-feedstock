@@ -12,7 +12,7 @@ source:
   sha256: 4796d9eb74b9a367511e6631800ff4e9bbaa57f5416d6a817f80155bbb558d4a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/icaros-usc/pyribs
-  summary: A bare-bones Python library for quality diversity optimization.
+  summary: The pyribs-base package on Conda is DEPRECATED. Please use the pyribs package on Conda instead.
   license: MIT
   license_file: LICENSE
 
